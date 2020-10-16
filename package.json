@@ -1,0 +1,47 @@
+{
+	"name": "crawler",
+	"version": "1.0",
+	"description": "crawler for pricetrack",
+	"main": "index.js",
+	"scripts": {
+		"start": "node functions/index.js",
+		"dev": "nodemon index.ts",
+		"build": "tsc -p ."
+	},
+	"author": "Sax <yusuphshamsondeen@gmail.com>",
+	"license": "MIT",
+	"keywords": [
+		"cloud",
+		"functions",
+		"pricetrack",
+		"typescript"
+	],
+	"dependencies": {
+		"-": "^0.0.1",
+		"D": "^1.0.0",
+		"axios": "^0.20.0",
+		"cheerio": "^1.0.0-rc.3",
+		"dotenv": "^8.2.0",
+		"node-localstorage": "^2.1.6",
+		"proxy-chain": "^0.4.5",
+		"puppeteer": "^5.3.1",
+		"puppeteer-extra": "^3.1.15",
+		"puppeteer-extra-plugin-adblocker": "^2.11.6",
+		"puppeteer-extra-plugin-anonymize-ua": "^2.2.14",
+		"puppeteer-extra-plugin-block-resources": "^2.2.7",
+		"puppeteer-extra-plugin-stealth": "^2.6.2",
+		"uuid": "^8.3.1"
+	},
+	"devDependencies": {
+		"@types/cheerio": "0.22.21",
+		"@types/express": "^4.17.8",
+		"@types/node": "^14.11.5",
+		"@types/node-localstorage": "^1.3.0",
+		"@types/puppeteer": "^3.0.2",
+		"@types/uuid": "^8.3.0",
+		"express": "^4.17.1",
+		"nodemon": "^2.0.4",
+		"ts-node": "^9.0.0",
+		"typescript": "^4.0.3"
+	}
+}

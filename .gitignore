@@ -1,0 +1,11 @@
+/node_modules
+/debug
+debug-konga.js
+desktop.ini
+getproxy.js
+*.
+konga.js
+playground.js
+snippet.js
+/results
+.env
